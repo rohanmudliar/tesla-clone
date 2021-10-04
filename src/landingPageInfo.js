@@ -1,6 +1,6 @@
 const landingPageInfo = [
   {
-    id: 0,
+    key: 0,
     title: "Model S",
     description: "Order Online for Touchless Delivery",
     backgroundImg: "model-s.jpg",
@@ -8,7 +8,7 @@ const landingPageInfo = [
     rightBtnText: "Existing Inventory",
   },
   {
-    id: 1,
+    key: 1,
     title: "Model 3",
     description: "Order Online for Touchless Delivery",
     backgroundImg: "model-3.jpg",
@@ -16,7 +16,7 @@ const landingPageInfo = [
     rightBtnText: "Existing Inventory",
   },
   {
-    id: 2,
+    key: 2,
     title: "Model X",
     description: "Order Online for Touchless Delivery",
     backgroundImg: "model-x.jpg",
@@ -24,7 +24,7 @@ const landingPageInfo = [
     rightBtnText: "Existing Inventory",
   },
   {
-    id: 3,
+    key: 3,
     title: "Model Y",
     description: "Order Online for Touchless Delivery",
     backgroundImg: "model-y.jpg",
@@ -32,7 +32,7 @@ const landingPageInfo = [
     rightBtnText: "Existing Inventory",
   },
   {
-    id: 4,
+    key: 4,
     title: "Solar Panels",
     description: "Lowest Cost Solar Panels in America",
     backgroundImg: "solar-panel.jpg",
@@ -40,7 +40,7 @@ const landingPageInfo = [
     rightBtnText: "learn more",
   },
   {
-    id: 5,
+    key: 5,
     title: "Solar Roof",
     description: "Produce Clean Energy From Your Roof",
     backgroundImg: "solar-roof.jpg",
@@ -48,7 +48,7 @@ const landingPageInfo = [
     rightBtnText: "learn more",
   },
   {
-    id: 6,
+    key: 6,
     title: "Accessories",
     description: "",
     backgroundImg: "accessories.jpg",

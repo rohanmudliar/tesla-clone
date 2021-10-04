@@ -7,25 +7,9 @@ import landingPageInfo from "../landingPageInfo";
 function Home() {
   return (
     <Container>
-      {landingPageInfo.map(
-        ({
-          id: key,
-          title,
-          description,
-          backgroundImg,
-          leftBtnText,
-          rightBtnText,
-        }) => (
-          <Section
-            key={key}
-            title={title}
-            description={description}
-            backgroundImg={backgroundImg}
-            leftBtnText={leftBtnText}
-            rightBtnText={rightBtnText}
-          />
-        )
-      )}
+      {landingPageInfo.map((pageDetails) => (
+        <Section {...pageDetails} />
+      ))}
     </Container>
   );
 }
